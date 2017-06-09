@@ -105,12 +105,7 @@ background-size: contain;}
 .new-list{position: relative; height: 30px; line-height: 30px; }
 .new-list a{display: block; color: #202468; font-size: 0.8rem; text-indent: 10px; max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 #news-more{position: absolute; left: 3%; bottom: 7%; width: 7%; height: 9%; }
-#news-pic{position: absolute; right: 2%; height: 80%; top: 50%; overflow: hidden;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+#news-pic{position: absolute; right: 2%; height: 80%; top: 10%; overflow: hidden;
     /*background: url("../img/news-bg.png") no-repeat;*/
     /*background-size: 100% 100%;*/
     font-size: 0;
