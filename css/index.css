@@ -2,14 +2,14 @@
 html,body{background-color: #f2ecde; font-size: 20px;}
 #container{width: 100%; padding: 0 40px 40px; min-width: 800px;  }
 #wrapper{margin: 0 auto;
-    /*max-width: 1400px;*/
+    max-width: 1000px;
 }
 .part{font-size: 0; position: relative;}
 #header{
     background-color: #f2ecde; position: fixed; min-width: 800px; top: 0px; width: 100%; left: 0; z-index: 99; padding: 40px 40px 6px;}
 #part1{ background: #f2ecde url("../img/part1-border.png") no-repeat center center;
     -webkit-background-size: 100% 100%; background-size: 100% 100%;
-    /*max-width: 1400px; margin: 0 auto;*/
+    max-width: 1000px; margin: 0 auto;
 }
 #part1-left{width: 74%; height: 100%;}
 #part1-leftTop{position: relative;}
@@ -111,10 +111,12 @@ background-size: contain;}
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: url("../img/news-bg.png") no-repeat; background-size: 100% 100%; font-size: 0;
+    /*background: url("../img/news-bg.png") no-repeat;*/
+    /*background-size: 100% 100%;*/
+    font-size: 0;
     padding: 0.3% 0.2% 0.35% 0.25%;
 }
-#news-pic img{height: 100%; width: 100%; display: block;}
+#news-pic img{display: block; height: 100%;}
 #news-pic p{height: 0rem; line-height: 2.2rem; font-size: 0.75rem; text-indent: 0.5rem; color: #fff; background-color: rgba(255,255,255,0.6); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; position: absolute; left: 0.5%; right: 0.5%; bottom: 2%;
     -webkit-transition: height 0.4s ease;
     -moz-transition: height 0.4s ease;
