@@ -28,16 +28,6 @@
         $("#date-day").css("font-size",dayheight+"px");
 
     }*/
-
-
-    /*==part2==*/
-    topHeight();
-    function topHeight(){
-        setTimeout(function (){
-            var topHeight = $("#header").outerHeight();
-            $("#wrapper").css("margin-top",topHeight);
-        },0);
-    }
     var swiper = new Swiper('.swiper-container',{
         simulateTouch: false,
         pagination: '.swiper-pagination',
@@ -48,10 +38,6 @@
         autoplay: 2500,
         autoplayDisableOnInteraction: false
     });
-
-
-
-
     /*==video==*/
     var video = document.getElementById("video");
     var video_btn = $("#video-btn");
@@ -73,33 +59,6 @@
             "scrollTop": 5
         }, 600);
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

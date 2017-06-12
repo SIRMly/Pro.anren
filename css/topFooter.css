@@ -1,6 +1,6 @@
 @charset "utf-8";
 html,body{background-color: #f2ecde; font-size: 20px;}
-#container{width: 100%; padding: 12px 0 40px; min-width: 800px;  }
+#container{width: 100%; padding: 12px 0 30px; min-width: 800px;  }
 #wrapper{margin: 0 auto; width: 1000px; }
 .part{font-size: 0; position: relative;}
 #part1{ background: #f2ecde url("../img/part1-border.png") no-repeat center center;

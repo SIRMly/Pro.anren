@@ -1,11 +1,19 @@
 @charset "utf-8";
-.second-main{width: 74.2%; height: 300px; font-family: "microsoft yahei";}
+.second-main{width: 74.2%;  font-family: "microsoft yahei";
+    background: url("../img/main-bg.png");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
 .second-right{width: 25.3%;}
 .second-right img{display: block; width: 100%;}
 .second-right img+img{margin-top: 10px;}
-.main-nav{color: #484a7e; font-size: 0.75rem; height: 3rem; line-height: 3rem; border: 1px solid #000;}
+.main-nav{color: #484a7e; position: relative; font-size: 0.75rem; height: 3rem; line-height: 3rem; background: url("../img/main-line.png") no-repeat bottom center;
+background-size: 100% auto;}
+.toHome{position: absolute; height: 1.1rem; width: 4rem; right: 20px; top: 50%; margin-top: -0.55rem; background: url("../img/toHome.png") no-repeat center center; background-size: contain;}
+.toHome:hover{background: url("../img/toHome-hover.png") no-repeat center center; background-size: contain;}
 .pd20{padding: 0 20px;}
-.main-title{border: 1px solid #000; padding-bottom: 0.6rem;}
+.main-title{background: url("../img/main-line.png") no-repeat bottom center;
+    background-size: 100% auto; padding-bottom: 0.6rem;}
 .main-title>p{color: #484a7e; font-size: 1.1rem; height: 2.5rem; line-height: 3rem; }
 .main-article-info{ }
 .main-article-info li{float: left; color: #717071; font-size: 0.6rem; height: 1rem; line-height: 1rem;}
@@ -19,7 +27,7 @@
     background-size: auto 650%; background-position: 0 50%;}
 .article-share-way:nth-of-type(2){background-position: 0 74%; margin-left: 0.1rem;}
 .article-share-way:nth-of-type(3){background-position: 0 98%; margin-left: 0.1rem;}
-.article-content{padding-top: 20px; padding-bottom: 25px; border: 1px solid #000;}
+.article-content{padding-top: 20px; padding-bottom: 50px;}
 .article-p{color: #252422; font-size: 0.75rem; line-height: 1.2rem;text-align: justify; }
 .article-p:not(:first-child){text-indent: 1.5rem;}
 .article-small-title{font-size: 0.985rem; color: #24286a; margin-top: 1.2rem; margin-bottom: 0.5rem;}
@@ -29,9 +37,6 @@
 
 
 .red{color: #cd3b4a;}
-
-
-
 
 
 

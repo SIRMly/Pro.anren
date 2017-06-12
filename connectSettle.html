@@ -240,7 +240,7 @@
                         <span>> 联系我们</span>
                         <span>> 拎包入住</span>
                     </p>
-                    <a href="##"></a>
+                    <a href="##" class="toHome"></a>
                 </div>
                 <div class="main-title clearfix pd20">
                     <p>安仁很忙 | 我们一起搞事情啊</p>
@@ -280,8 +280,29 @@
                         <img src="img/article-2.png" alt="" width="100%"/>
                     </p>
                     <p class="article-small-title">台湾/陈美娥</p>
-                    <p class="article-p"></p>
-
+                    <p class="article-p">随着《摔跤吧爸爸》的热火，阿米尔汗被评为印度国宝级演员，那么今天娱乐编辑就带大家看看说说那些各个国家国宝级的演员！</p>
+                    <p class="article-p">英国国宝级演员非憨豆莫属了，他的真名叫罗温艾金森，但憨豆的形象已经深入人心了，深受全世界观众喜爱。</p>
+                    <p class="article-pic">
+                        <img src="img/article-3.png" alt="" width="100%"/>
+                    </p>
+                    <p class="article-p">印度电影确实是除了好莱坞比较厉害的了，他们的国宝级演员自然是阿米尔汗了，从《三大傻大闹宝莱坞》到《摔跤吧！爸爸》一直深受观众好评，而且他十分敬业。</p>
+                    <p class="article-p">印度电影确实是除了好莱坞比较厉害的了，他们的国宝级演员自然是阿米尔汗了，从《三大傻大闹宝莱坞》到《摔跤吧！爸爸》一直深受观众好评，而且他十分敬业。</p>
+                    <p class="article-p">印度电影确实是除了好莱坞比较厉害的了，他们的国宝级演员自然是阿米尔汗了，从《三大傻大闹宝莱坞》到《摔跤吧！爸爸》一直深受观众好评，而且他十分敬业。</p>
+                    <p class="article-pic">
+                        <img src="img/article-4.png" alt="" width="100%"/>
+                    </p>
+                    <p class="article-small-title">长安/庄莹</p>
+                    <p class="article-p">美国，自然是摩根弗里曼。从《肖申克的救赎》，《冒牌天神》到现在各种电影，他可以塑造各种形象，三次获得奥斯卡金像奖。</p>
+                    <p class="article-p">美国，自然是摩根弗里曼。从《肖申克的救赎》，《冒牌天神》到现在各种电影，他可以塑造各种形象，三次获得奥斯卡金像奖。</p>
+                    <p class="article-small-title">安仁又在密谋大事</p>
+                    <p class="article-p">本片有两个时间线，第一个是男女主角一行五人周末去林中小屋玩，由于触发机关，僵尸复活，然后一个个被僵尸杀死的故事。看似是恐怖片惯有的套路，但这部电影跟那些单纯的吓吓观众的恐怖片不一样，新奇并且具有讽刺意味。</p>
+                    <p class="article-p">为了不让上古恶魔苏醒毁灭世界，科学家们不得不遵循某个祭奠仪式，让这五个人按顺序一个个被僵尸杀死，来安抚恶魔，让它继续沉睡。</p>
+                    <p class="article-pic">
+                        <img src="img/article-5.png" alt="" width="100%"/>
+                    </p>
+                    <p class="article-p">刚开始在科学家们的神助攻下，剧情确实是按照他们的设定发展，人物根据罪恶的多少一个个先后死亡，观众看着一个个恐怖片惯有的套路，也许会乏味，但，请你一定要继续看下去，因为本该死的其中一人竟然没死，还把僵尸肢解了，剧情从这开始了神转折，以后的完全不按科学家们设定的套路发展。</p>
+                    <p class="article-p">包括最后群魔乱舞，你会看到很多熟悉的身影，几乎所有恐怖片的主角都在这部电影亮相了。</p>
+                    <p class="article-p">这部片子既满足了恐怖片爱好者的眼瘾(血腥，怪兽，尖叫片段很多)，又一反常态的讽刺美国科幻片的套路，寓意深刻，剧情新颖，并且不断转折，绝对另恐怖片爱好者们大呼过瘾。</p>
                 </div>
             </div>
             <div class="pull-right second-right">
@@ -329,5 +350,25 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/swiper.jquery.min.js"></script>
 <!--<script src="js/index.js" charset="utf-8"></script>-->
+<script>
+    ;(function ($){
+        var swiper = new Swiper('.swiper-container',{
+            simulateTouch: false,
+            pagination: '.swiper-pagination',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 0,
+            loop: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false
+        });
+        /*==回到顶部==*/
+        $("#toTop").on("click", function () {
+            $("body,html").stop().animate({
+                "scrollTop": 5
+            }, 600);
+        });
+    })(jQuery);
+</script>
 </body>
 </html>
