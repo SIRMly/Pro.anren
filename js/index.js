@@ -2,13 +2,13 @@
  * Created by Administrator on 2017/5/26.
  */
 ;(function ($){
-    showDate();
+    /*showDate();
     changeFS();
     $(window).resize(function (){
         changeFS();
         topHeight();
     });
-    /*==显示日期==*/
+    /!*==显示日期==*!/
     function showDate(){
         var newDate = new Date();
         var year = newDate.getFullYear();
@@ -19,7 +19,7 @@
         $("#date-year").html(year);
         $("#date-day").html(month+"月"+day+"日");
     }
-    /*==字体大小==*/
+    /!*==字体大小==*!/
     function changeFS(){
         var dateHeight = $("#date").height();
         var yearheight = dateHeight*0.5;
@@ -27,7 +27,7 @@
         $("#date-year").css("font-size",yearheight+"px");
         $("#date-day").css("font-size",dayheight+"px");
 
-    }
+    }*/
 
 
     /*==part2==*/
