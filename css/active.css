@@ -6,10 +6,6 @@ body {
 	background: #f2ecde;
 }
 
-p {
-	text-indent: 2em;
-}
-
 .topOne {
 	width: 80%;
 	height: 320px;
@@ -143,7 +139,7 @@ background-size: auto 100%;
 	text-align: center;
 	line-height: 20px;
 	color: #FFFFFF;
-	font-family: Microsoft JhengHei;
+	font-family: "microsoft yahei";
 	border-radius: 10px;
 }
 
@@ -181,7 +177,6 @@ background-size: auto 100%;
 }
 
 .content {
-	position: relative;
 	position: relative;
 	margin: 10px auto;
 	width: 80%;
@@ -225,7 +220,11 @@ background-size: auto 100%;
 	float: left;
 	width: 100px;
 	height: 30px;
-	line-height: 30px;
+
+	font-size: 20px;
+	font-family: "黑体";
+	font-weight: 600;
+	line-height: 50px;
 	color: #202468;
 	margin-left: 20px;
 }
@@ -336,11 +335,9 @@ background-size: auto 100%;
 	transform: translate3d(0, 0, 0);
 	z-index: 10;
 }
-
 .newsTitle {
-	background-image: url(../img/loop2kuang.png);
+	background: url(../img/loop2kuang.png) no-repeat;
 	background-size: 100% 50px;
-	background-repeat: no-repeat;
 	width: 80%;
 	height: 50px;
 	overflow: hidden;
@@ -380,7 +377,7 @@ background-size: auto 100%;
 
 .news-detail h3 a{
 	color: #202468;
-	font-family: "楷体";
+	font-family: "microsoft yahei";
 	font-size: 27px;
 	line-height: 27px;
 }
@@ -388,9 +385,11 @@ background-size: auto 100%;
 
 }
 .news-pro {
-	height: 4em;
+	text-indent: 2em;
+	margin: 10px auto;
+	height: 90px;
 	overflow: hidden;
-	font-family: "黑体";
+	font-family: "microsoft yahei";
 	font-size: 16px;
 }
 
@@ -420,7 +419,7 @@ background-size: auto 100%;
 	line-height: 18px;
 	text-align: center;
 	margin: 150px auto 50px auto;
-	font-family: "黑体";
+	font-family: "microsoft yahei";
 	font-size: 16px;
 }
 
@@ -441,7 +440,6 @@ background-size: auto 100%;
 .pageNum {
 	display: block;
 	float: left;
-	/*margin: auto 20px;*/
 }
 
 .pageNum li {
