@@ -4,12 +4,12 @@
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
-.second-right{width: 25.3%;}
-.second-right img{display: block; width: 100%;}
+.second-right{width: 25.3%; background-color: #f2ecde;}
+.second-right img{display: block; width: 100%; }
 .second-right img+img{margin-top: 10px;}
 .main-nav{color: #484a7e; position: relative; font-size: 0.75rem; height: 3rem; line-height: 3rem; background: url("../img/main-line.png") no-repeat bottom center;
 background-size: 100% auto;}
-.toHome{position: absolute; height: 1.1rem; width: 4rem; right: 20px; top: 50%; margin-top: -0.55rem; background: url("../img/toHome.png") no-repeat center center; background-size: contain;}
+.toHome{position: absolute; height: 1.3rem; width: 5rem; right: 20px; top: 50%; margin-top: -0.65rem; background: url("../img/toHome.png") no-repeat center center; background-size: contain;}
 .toHome:hover{background: url("../img/toHome-hover.png") no-repeat center center; background-size: contain;}
 .pd20{padding: 0 20px;}
 .main-title{background: url("../img/main-line.png") no-repeat bottom center;
@@ -32,9 +32,6 @@ background-size: 100% auto;}
 .article-p:not(:first-child){text-indent: 1.5rem;}
 .article-small-title{font-size: 0.985rem; color: #24286a; margin-top: 1.2rem; margin-bottom: 0.5rem;}
 .article-pic{margin: 0.8rem 0;}
-
-
-
 
 .red{color: #cd3b4a;}
 
