@@ -28,7 +28,7 @@
         $("#date-day").css("font-size",dayheight+"px");
 
     }*/
-    var swiper = new Swiper('.swiper-container',{
+    var swiper = new Swiper('#swiper-container',{
         simulateTouch: false,
         pagination: '.swiper-pagination',
         slidesPerView: 1,
