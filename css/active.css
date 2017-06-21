@@ -1,12 +1,13 @@
 @charset "utf-8";
-html, body { font-size: 20px;  margin: 0;  background: #f2ecde;  }
+html, body { font-size: 20px;}
 .active-nav-title{color: #484a7e; font-size: 0.8rem; font-weight: bold;}
-.loop2 { display: block; position: relative; top: 0px; width: 95%; margin: 10px auto; padding: 0.5% 0.4% 0.3% 0.1%; background: url(../img/loop2bor.png) no-repeat center center; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
+.loop2 { display: block; position: relative; top: 0px; width: 95%; margin: 10px auto; padding: 0.5% 0.7% 0.3% 0.2%; background: url(../img/loop2bor.png) no-repeat center center; -webkit-background-size: 100% 100%; background-size: 100% 100%; }
 .news{padding: 0 25px 30px;}
 #swiper-container2>.swiper-pagination2{text-align: right; z-index: 10;  padding-right: 0.5rem; bottom: 16px; position: absolute;}
 .newsTitle { background: url(../img/loop2kuang.png) no-repeat; background-size: 100% 100%; width: 80%; overflow: hidden; position: absolute; bottom: 10px; left: 3%; z-index: 10; color: #FFFFFF; font-size: 0.8rem; height: 2rem;  line-height: 1.9rem; text-indent: 0.7rem;  }
 .newscontant { display: block; width: 100%; margin: 30px auto; }
-.nes-pic { display: block;  float: left;  width: 30%;  }
+.nes-pic{display: block;  float: left;  width: 30%; position: relative;}
+.nes-pic-border{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url("../img/list-border.png") no-repeat; -webkit-background-size: 100% 100%; background-size: 100% 100%;}
 .news-detail { display: block; float: right; width: 65%; margin-top: 0.6rem;  }
 .news-detail .article-p{height: 2.5rem; overflow: hidden;}
 .news-detail h3{margin-bottom: 0.3rem;}

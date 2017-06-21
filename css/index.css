@@ -41,10 +41,7 @@ background-size: contain;}
 .new-list a{display: block; color: #202468; font-size: 0.8rem; text-indent: 10px; max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 #news-more{position: absolute; left: 3%; bottom: 7%; width: 7%; height: 9%; }
 #news-pic{position: absolute; right: 2%; height: 80%; top: 10%; overflow: hidden;
-    /*background: url("../img/news-bg.png") no-repeat;*/
-    /*background-size: 100% 100%;*/
     font-size: 0;
-    /*padding: 0.3% 0.2% 0.35% 0.25%;*/
 }
 #news-pic img{display: block; height: 100%;}
 #news-pic p{height: 0; line-height: 2.2rem; font-size: 0.75rem; text-indent: 0.5rem;
@@ -69,9 +66,7 @@ background-size: contain;}
 #part4-more{position: absolute; width: 2.8%; height: 6.6%; right: 3%; top: 3%;}
 /*==part5==*/
 #part5{}
-#part5-word{width: 25.35%;
-    /*background: url("../img/part5-wordbg.png") no-repeat;  -webkit-background-size: 100% 100%;  background-size: 100% 100%;*/
-}
+#part5-word{width: 25.35%;}
 #part5-video{position: absolute; width: 73.85%; height: 100%; left: 0; top: 0;}
 #video-btn{width: 10%; height: 18.33%; position: absolute; top: 40.83%; left: 45%; background: url("../img/5-btn.png") no-repeat center center;
     -webkit-background-size: contain;
