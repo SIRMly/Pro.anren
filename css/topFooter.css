@@ -9,6 +9,7 @@ html,body{background: #f2ecde url("../img/bg.png") repeat; font-size: 20px;}
 #part1-title{width: 100%; padding: 3% 0 2.5%; }
 .title-img{display: block; margin: 0 auto;}
 #login{width: 100%; height: 9%; margin-top: 14%; background: url("../img/1-login.png") no-repeat center center; -webkit-background-size: 80% auto;  background-size: 80% auto; position: relative;}
+#login a{display: block; width: 30%; margin-left: 5%; height: 100%;}
 #part1-nav{width: 100%; font-size:0; padding: 0.25% 0.3% 0.4% 0.4%; background: url("../img/nav-top-border.png") no-repeat top center;  -webkit-background-size: 100% auto;  background-size: 100% auto;;  position: relative; }
 #links-wrapper{width: 100%; height: 100%;background-color: #c30d23;}
 .part1-link-navs{width: 11%; margin: 1% 1.5%; float: left; position: relative;}
